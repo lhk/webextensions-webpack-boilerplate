@@ -1,6 +1,7 @@
 # Why the fork ?
 This fork moves the codebase to python and sets up a two-step compilation process:
 
+0. npm install
 1. tsc -p tsconfig.json
 2. npm run start
 
