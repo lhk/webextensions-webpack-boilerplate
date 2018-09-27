@@ -9,6 +9,12 @@
       "{{./background/index.js}}"
     ]
   },
+  "content_scripts": [
+    {
+        "matches": ["<all_urls>"],
+        "js": ["{{./content/index.js}}"]
+    }
+  ],
   "options_ui": {
     "page": "{{./options/index.html}}"
   },
