@@ -66,7 +66,7 @@ module.exports = {
             name: '[hash].js'
           }
         }]
-      },
+      },/*
       {
         test: /\.js$/,
         exclude: /(node_modules|bower_components)/,
@@ -87,7 +87,7 @@ module.exports = {
             query: '__babelPolyfill=babel-polyfill'
           }
         ]
-      },
+      },*/
       {
         test: new RegExp('\.(' + ASSET_EXTENSIONS.join('|') + ')$'),
         use: {
