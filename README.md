@@ -1,3 +1,13 @@
+# Why the fork ?
+This fork moves the codebase to python and sets up a two-step compilation process:
+
+1. tsc -p tsconfig.json
+2. npm run start
+
+Since typescript can compile to ES5 on its own, I have removed the babel-loader.
+
+(also this fork uses updated packages)
+
 # Browser Extension Webpack Boilerplate
 
 A basic boilerplate for creating [WebExtensions API-based Browser Extensions](https://developer.mozilla.org/en-US/Add-ons/WebExtensions) using [Webpack](https://webpack.js.org/).
